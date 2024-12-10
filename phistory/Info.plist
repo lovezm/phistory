@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSPasteboardUsageDescription</key>
+    <string>We need access to your clipboard to save your copy history.</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSBackgroundOnly</key>
+    <false/>
+    <key>LSMultipleInstancesProhibited</key>
+    <true/>
+    <key>SMPrivilegedExecutables</key>
+    <dict>
+        <key>com.ergou.phistory-launcher</key>
+        <string>identifier com.ergou.phistory-launcher</string>
+    </dict>
+    <key>com.apple.security.app-sandbox</key>
+    <true/>
+    <key>com.apple.security.automation.apple-events</key>
+    <true/>
+</dict>
+</plist>
